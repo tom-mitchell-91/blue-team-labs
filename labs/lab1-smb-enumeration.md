@@ -33,3 +33,11 @@ smbclient //<windows-ip>/LabShare_Public -U emmatest
 - Authentication does not guarantee access (authorization required)
 - Both share and NTFS permissions must allow access
 - Misconfigured permissions can expose sensitive data
+  
+## Challenges Faced
+- Authentication failures when connecting via smbclient
+- Permission misconfiguration between share and NTFS
+
+## How I Resolved Them
+- Used correct username format (.\emmatest)
+- Ensured both share and NTFS permissions allowed access
