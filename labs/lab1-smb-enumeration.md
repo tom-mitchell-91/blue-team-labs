@@ -29,6 +29,14 @@ smbclient //<windows-ip>/LabShare_Public -U emmatest
 - noahtest - Only access to the public share
 - Access denied when attempting private share with restricted user
 
+## Log Analysis Findings
+
+- Event ID 4624 confirmed successful SMB authentication from Kali
+- Event ID 4625 captured failed login attempts with incorrect credentials
+- Event ID 5140 showed access to shared folders
+- Source IP addresses aligned with the Kali VM
+- Logs provide clear traceability between user actions and system activity
+
 ## Key Findings
 - Authentication does not guarantee access (authorization required)
 - Both share and NTFS permissions must allow access
