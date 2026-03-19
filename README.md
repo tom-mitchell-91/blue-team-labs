@@ -4,6 +4,7 @@ This repository documents my hands-on labs as I build practical skills in blue t
 
 ## Labs Completed
 - SMB Enumeration & Access Control (Windows + Kali)
+- Brute Force Detection (SMB)
 
 ## Goals
 - Develop practical SOC and blue team skills
